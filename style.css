@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 10px;
+    background-color: #1f2937;
+  }
+  header p{
+      font-size: 20px;
+      color: #f9faf8;
+      
+      
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+    list-style: none;
+      font-size:18px ;
+      color: #e5e7eb;
+  
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  .container > .content {
+    color: white;
+    flex: 1;
+    margin-right: 20px;
+  
+  }
+  
+  .content h2{
+      font-size: 48px;
+      font-weight: 800;
+      color:#f9faf8;
+  }
+  
+  .content p{
+      font-size:18px ;
+      color: #e5e7eb;
+  }
+  
+  .container img {
+    border-radius: 10px;
+  }
+  
+  .container2 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .container2 h2{
+      font-size: 36px;
+      font-weight: 800;
+      color: #1f2937;
+  }
+  .image-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .paragraph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .paragraph-container p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .item p {
+    margin: 10px 0;
+  }
+  
+  .container3 {
+    text-align: left;
+    padding: 50px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .container3 h3 {
+    text-align: right;
+    font-size: 1rem;
+  }
+  
+  .container4{
+      background-color: white;
+      margin: 20px;
+      padding: 15px;
+  }
+  .card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 0;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  footer{
+      text-align: center;
+      background-color: #1f2937;
+      padding: 20px;
+  }
+  button{
+      background-color: #3882f6;
+      width: 90px;
+      height: 40px;
+      border-radius: 10px;
+      color: white;
+      border: 2px solid white;
+  }
+  
+  
